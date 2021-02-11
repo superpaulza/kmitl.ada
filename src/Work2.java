@@ -3,7 +3,7 @@ public class Work2 {
     public static int count = 0;
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        int MAX = 100000;
+        int MAX = 100;
         int[] arr = new int[MAX];
         Random(arr,0,50);
         arr[0] = 9; arr[arr.length-1] = 9;
